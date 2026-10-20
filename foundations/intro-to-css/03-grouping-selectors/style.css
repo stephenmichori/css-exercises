@@ -1,1 +1,25 @@
 /* Add CSS Styling */
+.first-button {
+    background-color: black;
+    color: white;
+}
+
+.second-button {
+    background-color: yellow;
+}
+
+.first-button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.second-button:hover {
+    background-color: rgb(185, 252, 0);
+    color: white;
+}
+
+.first-button,
+.second-button {
+    font-size: 24px;
+    font-family: 'Helvetica', 'Times New Roman' 'sans-serif';
+}
